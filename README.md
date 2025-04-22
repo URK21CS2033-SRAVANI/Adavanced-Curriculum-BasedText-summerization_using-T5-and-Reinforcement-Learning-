@@ -6,28 +6,36 @@ This project explores an advanced approach to abstractive text summarization by 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Architecture](#architecture)
-- [Results](#results)
-- [Screenshots](#screenshots)
-- [Contributors](#contributors)
-- [License](#license)
+- [Contributor](#contributor)
   
-📚 **Advanced Curriculum-Based Abstractive Text Summarization with T5 and Reinforcement Learning**
-This project explores an advanced approach to abstractive text summarization by combining the T5 (Text-To-Text Transfer Transformer) language model with a Curriculum Learning strategy and Reinforcement Learning (RL) optimization.
+## Overview
+This project explores an advanced approach to abstractive text summarization by integrating:
+- The T5 (Text-to-Text Transfer Transformer) model,
+- Curriculum Learning (training from easy to hard tasks), and
+- Reinforcement Learning (reward-based optimization).
 
-🚀 **Key Features**
-✨ Abstractive Summarization using pre-trained T5 transformer for generating human-like summaries.
+It aims to generate coherent, factually accurate, and concise summaries for long documents across domains like research, business, and healthcare.
 
-🎓 Curriculum Learning to gradually expose the model to more complex summaries, improving generalization and training efficiency.
+## Features
+- 🔍 Curriculum Learning-based training pipeline
+- 🧠 Reinforcement Learning with custom reward function
+- 🤖 T5 fine-tuning using Hugging Face Transformers
+- 📊 ROUGE and BLEU evaluation metrics
+- 🌍 Scalable and modular system
 
-🧠 Reinforcement Learning (e.g., using policy gradients) to fine-tune summaries with task-specific rewards such as ROUGE scores.
+## Tech Stack
+- Python
+- Hugging Face Transformers (T5)
+- PyTorch
+- Stable Baselines3 (for RL)
+- NLTK, ROUGE
+- Streamlit (optional UI)
+**
+Streamlit is used:**
+streamlit run src/app.py
 
-📈 Enhanced performance through hybrid training combining supervised and reward-driven optimization.
+## Contributor
 
-**📊 Results**
-Achieved improved ROUGE scores over baseline T5 summarization.
+- **Nagothu Sravani vimala rani** - [(https://www.linkedin.com/in/sravani22/)](#) | [nagothusravani@karunya.edu.in](#)
 
-Demonstrated better coherence and fluency with curriculum-guided training.
-
-Efficient convergence through reinforcement learning-based reward shaping.
+  
